@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50CAF5B0191CDFFC002CCFCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50CAF5AF191CDFFC002CCFCD /* Foundation.framework */; };
+		50CAF5B2191CDFFC002CCFCD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50CAF5B1191CDFFC002CCFCD /* CoreGraphics.framework */; };
+		50CAF5B4191CDFFC002CCFCD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50CAF5B3191CDFFC002CCFCD /* UIKit.framework */; };
+		50CAF5BA191CDFFC002CCFCD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50CAF5B8191CDFFC002CCFCD /* InfoPlist.strings */; };
+		50CAF5BC191CDFFC002CCFCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50CAF5BB191CDFFC002CCFCD /* main.m */; };
+		50CAF5C0191CDFFC002CCFCD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50CAF5BF191CDFFC002CCFCD /* AppDelegate.m */; };
+		50CAF5C3191CDFFC002CCFCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50CAF5C1191CDFFC002CCFCD /* Main.storyboard */; };
+		50CAF5C6191CDFFC002CCFCD /* BTLoginWithFaceBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50CAF5C5191CDFFC002CCFCD /* BTLoginWithFaceBookViewController.m */; };
+		50CAF5C8191CDFFC002CCFCD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50CAF5C7191CDFFC002CCFCD /* Images.xcassets */; };
+		50CAF5CF191CDFFC002CCFCD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50CAF5CE191CDFFC002CCFCD /* XCTest.framework */; };
+		50CAF5D0191CDFFC002CCFCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50CAF5AF191CDFFC002CCFCD /* Foundation.framework */; };
+		50CAF5D1191CDFFC002CCFCD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50CAF5B3191CDFFC002CCFCD /* UIKit.framework */; };
+		50CAF5D9191CDFFC002CCFCD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50CAF5D7191CDFFC002CCFCD /* InfoPlist.strings */; };
+		50CAF5DB191CDFFC002CCFCD /* BeachTimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50CAF5DA191CDFFC002CCFCD /* BeachTimeTests.m */; };
+		50CAF5FB191D0349002CCFCD /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 50CAF5E9191D0349002CCFCD /* AFHTTPRequestOperation.m */; };
+		50CAF5FC191D0349002CCFCD /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 50CAF5EB191D0349002CCFCD /* AFHTTPRequestOperationManager.m */; };
+		50CAF5FD191D0349002CCFCD /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 50CAF5ED191D0349002CCFCD /* AFHTTPSessionManager.m */; };
+		50CAF5FE191D0349002CCFCD /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 50CAF5F0191D0349002CCFCD /* AFNetworkReachabilityManager.m */; };
+		50CAF5FF191D0349002CCFCD /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50CAF5F2191D0349002CCFCD /* AFSecurityPolicy.m */; };
+		50CAF600191D0349002CCFCD /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 50CAF5F4191D0349002CCFCD /* AFURLConnectionOperation.m */; };
+		50CAF601191D0349002CCFCD /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 50CAF5F6191D0349002CCFCD /* AFURLRequestSerialization.m */; };
+		50CAF602191D0349002CCFCD /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 50CAF5F8191D0349002CCFCD /* AFURLResponseSerialization.m */; };
+		50CAF603191D0349002CCFCD /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 50CAF5FA191D0349002CCFCD /* AFURLSessionManager.m */; };
+		50CAF606191D03F6002CCFCD /* BTMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50CAF605191D03F6002CCFCD /* BTMainViewController.m */; };
+		50CAF609191D0F3A002CCFCD /* weatherCode.txt in Resources */ = {isa = PBXBuildFile; fileRef = 50CAF608191D0F3A002CCFCD /* weatherCode.txt */; };
+		50CAF60D191D1741002CCFCD /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50CAF60C191D1741002CCFCD /* FacebookSDK.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50CAF5D2191CDFFC002CCFCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50CAF5A4191CDFFB002CCFCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50CAF5AB191CDFFC002CCFCD;
+			remoteInfo = BeachTime;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		50CAF5AC191CDFFC002CCFCD /* BeachTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeachTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50CAF5AF191CDFFC002CCFCD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		50CAF5B1191CDFFC002CCFCD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		50CAF5B3191CDFFC002CCFCD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		50CAF5B7191CDFFC002CCFCD /* BeachTime-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BeachTime-Info.plist"; sourceTree = "<group>"; };
+		50CAF5B9191CDFFC002CCFCD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		50CAF5BB191CDFFC002CCFCD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		50CAF5BD191CDFFC002CCFCD /* BeachTime-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BeachTime-Prefix.pch"; sourceTree = "<group>"; };
+		50CAF5BE191CDFFC002CCFCD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		50CAF5BF191CDFFC002CCFCD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		50CAF5C2191CDFFC002CCFCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50CAF5C4191CDFFC002CCFCD /* BTLoginWithFaceBookViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTLoginWithFaceBookViewController.h; sourceTree = "<group>"; };
+		50CAF5C5191CDFFC002CCFCD /* BTLoginWithFaceBookViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTLoginWithFaceBookViewController.m; sourceTree = "<group>"; };
+		50CAF5C7191CDFFC002CCFCD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		50CAF5CD191CDFFC002CCFCD /* BeachTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeachTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50CAF5CE191CDFFC002CCFCD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		50CAF5D6191CDFFC002CCFCD /* BeachTimeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BeachTimeTests-Info.plist"; sourceTree = "<group>"; };
+		50CAF5D8191CDFFC002CCFCD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		50CAF5DA191CDFFC002CCFCD /* BeachTimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeachTimeTests.m; sourceTree = "<group>"; };
+		50CAF5E8191D0349002CCFCD /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		50CAF5E9191D0349002CCFCD /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		50CAF5EA191D0349002CCFCD /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		50CAF5EB191D0349002CCFCD /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		50CAF5EC191D0349002CCFCD /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		50CAF5ED191D0349002CCFCD /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		50CAF5EE191D0349002CCFCD /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		50CAF5EF191D0349002CCFCD /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		50CAF5F0191D0349002CCFCD /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		50CAF5F1191D0349002CCFCD /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		50CAF5F2191D0349002CCFCD /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		50CAF5F3191D0349002CCFCD /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		50CAF5F4191D0349002CCFCD /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		50CAF5F5191D0349002CCFCD /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		50CAF5F6191D0349002CCFCD /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		50CAF5F7191D0349002CCFCD /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		50CAF5F8191D0349002CCFCD /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		50CAF5F9191D0349002CCFCD /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		50CAF5FA191D0349002CCFCD /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		50CAF604191D03F6002CCFCD /* BTMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTMainViewController.h; sourceTree = "<group>"; };
+		50CAF605191D03F6002CCFCD /* BTMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTMainViewController.m; sourceTree = "<group>"; };
+		50CAF608191D0F3A002CCFCD /* weatherCode.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = weatherCode.txt; sourceTree = "<group>"; };
+		50CAF60C191D1741002CCFCD /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = "../Third Party/FaceBook/FacebookSDK.framework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50CAF5A9191CDFFC002CCFCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50CAF5B2191CDFFC002CCFCD /* CoreGraphics.framework in Frameworks */,
+				50CAF60D191D1741002CCFCD /* FacebookSDK.framework in Frameworks */,
+				50CAF5B4191CDFFC002CCFCD /* UIKit.framework in Frameworks */,
+				50CAF5B0191CDFFC002CCFCD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50CAF5CA191CDFFC002CCFCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50CAF5CF191CDFFC002CCFCD /* XCTest.framework in Frameworks */,
+				50CAF5D1191CDFFC002CCFCD /* UIKit.framework in Frameworks */,
+				50CAF5D0191CDFFC002CCFCD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50CAF5A3191CDFFB002CCFCD = {
+			isa = PBXGroup;
+			children = (
+				50CAF607191D0F3A002CCFCD /* Resources */,
+				50CAF5B5191CDFFC002CCFCD /* BeachTime */,
+				50CAF5D4191CDFFC002CCFCD /* BeachTimeTests */,
+				50CAF5E6191D032F002CCFCD /* Third Party */,
+				50CAF5AE191CDFFC002CCFCD /* Frameworks */,
+				50CAF5AD191CDFFC002CCFCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50CAF5AD191CDFFC002CCFCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50CAF5AC191CDFFC002CCFCD /* BeachTime.app */,
+				50CAF5CD191CDFFC002CCFCD /* BeachTimeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50CAF5AE191CDFFC002CCFCD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50CAF60C191D1741002CCFCD /* FacebookSDK.framework */,
+				50CAF5AF191CDFFC002CCFCD /* Foundation.framework */,
+				50CAF5B1191CDFFC002CCFCD /* CoreGraphics.framework */,
+				50CAF5B3191CDFFC002CCFCD /* UIKit.framework */,
+				50CAF5CE191CDFFC002CCFCD /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		50CAF5B5191CDFFC002CCFCD /* BeachTime */ = {
+			isa = PBXGroup;
+			children = (
+				50CAF5BE191CDFFC002CCFCD /* AppDelegate.h */,
+				50CAF5BF191CDFFC002CCFCD /* AppDelegate.m */,
+				50CAF5C1191CDFFC002CCFCD /* Main.storyboard */,
+				50CAF5C4191CDFFC002CCFCD /* BTLoginWithFaceBookViewController.h */,
+				50CAF5C5191CDFFC002CCFCD /* BTLoginWithFaceBookViewController.m */,
+				50CAF604191D03F6002CCFCD /* BTMainViewController.h */,
+				50CAF605191D03F6002CCFCD /* BTMainViewController.m */,
+				50CAF5C7191CDFFC002CCFCD /* Images.xcassets */,
+				50CAF5B6191CDFFC002CCFCD /* Supporting Files */,
+			);
+			path = BeachTime;
+			sourceTree = "<group>";
+		};
+		50CAF5B6191CDFFC002CCFCD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50CAF5B7191CDFFC002CCFCD /* BeachTime-Info.plist */,
+				50CAF5B8191CDFFC002CCFCD /* InfoPlist.strings */,
+				50CAF5BB191CDFFC002CCFCD /* main.m */,
+				50CAF5BD191CDFFC002CCFCD /* BeachTime-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		50CAF5D4191CDFFC002CCFCD /* BeachTimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				50CAF5DA191CDFFC002CCFCD /* BeachTimeTests.m */,
+				50CAF5D5191CDFFC002CCFCD /* Supporting Files */,
+			);
+			path = BeachTimeTests;
+			sourceTree = "<group>";
+		};
+		50CAF5D5191CDFFC002CCFCD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50CAF5D6191CDFFC002CCFCD /* BeachTimeTests-Info.plist */,
+				50CAF5D7191CDFFC002CCFCD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		50CAF5E6191D032F002CCFCD /* Third Party */ = {
+			isa = PBXGroup;
+			children = (
+				50CAF5E7191D0349002CCFCD /* AFNetworking */,
+			);
+			name = "Third Party";
+			sourceTree = "<group>";
+		};
+		50CAF5E7191D0349002CCFCD /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				50CAF5E8191D0349002CCFCD /* AFHTTPRequestOperation.h */,
+				50CAF5E9191D0349002CCFCD /* AFHTTPRequestOperation.m */,
+				50CAF5EA191D0349002CCFCD /* AFHTTPRequestOperationManager.h */,
+				50CAF5EB191D0349002CCFCD /* AFHTTPRequestOperationManager.m */,
+				50CAF5EC191D0349002CCFCD /* AFHTTPSessionManager.h */,
+				50CAF5ED191D0349002CCFCD /* AFHTTPSessionManager.m */,
+				50CAF5EE191D0349002CCFCD /* AFNetworking.h */,
+				50CAF5EF191D0349002CCFCD /* AFNetworkReachabilityManager.h */,
+				50CAF5F0191D0349002CCFCD /* AFNetworkReachabilityManager.m */,
+				50CAF5F1191D0349002CCFCD /* AFSecurityPolicy.h */,
+				50CAF5F2191D0349002CCFCD /* AFSecurityPolicy.m */,
+				50CAF5F3191D0349002CCFCD /* AFURLConnectionOperation.h */,
+				50CAF5F4191D0349002CCFCD /* AFURLConnectionOperation.m */,
+				50CAF5F5191D0349002CCFCD /* AFURLRequestSerialization.h */,
+				50CAF5F6191D0349002CCFCD /* AFURLRequestSerialization.m */,
+				50CAF5F7191D0349002CCFCD /* AFURLResponseSerialization.h */,
+				50CAF5F8191D0349002CCFCD /* AFURLResponseSerialization.m */,
+				50CAF5F9191D0349002CCFCD /* AFURLSessionManager.h */,
+				50CAF5FA191D0349002CCFCD /* AFURLSessionManager.m */,
+			);
+			name = AFNetworking;
+			path = "../Third Party/AFNetworking";
+			sourceTree = "<group>";
+		};
+		50CAF607191D0F3A002CCFCD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				50CAF608191D0F3A002CCFCD /* weatherCode.txt */,
+			);
+			name = Resources;
+			path = BeachTime/Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50CAF5AB191CDFFC002CCFCD /* BeachTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50CAF5DE191CDFFC002CCFCD /* Build configuration list for PBXNativeTarget "BeachTime" */;
+			buildPhases = (
+				50CAF5A8191CDFFC002CCFCD /* Sources */,
+				50CAF5A9191CDFFC002CCFCD /* Frameworks */,
+				50CAF5AA191CDFFC002CCFCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeachTime;
+			productName = BeachTime;
+			productReference = 50CAF5AC191CDFFC002CCFCD /* BeachTime.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50CAF5CC191CDFFC002CCFCD /* BeachTimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50CAF5E1191CDFFC002CCFCD /* Build configuration list for PBXNativeTarget "BeachTimeTests" */;
+			buildPhases = (
+				50CAF5C9191CDFFC002CCFCD /* Sources */,
+				50CAF5CA191CDFFC002CCFCD /* Frameworks */,
+				50CAF5CB191CDFFC002CCFCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50CAF5D3191CDFFC002CCFCD /* PBXTargetDependency */,
+			);
+			name = BeachTimeTests;
+			productName = BeachTimeTests;
+			productReference = 50CAF5CD191CDFFC002CCFCD /* BeachTimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50CAF5A4191CDFFB002CCFCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = GuyKahlon;
+				TargetAttributes = {
+					50CAF5CC191CDFFC002CCFCD = {
+						TestTargetID = 50CAF5AB191CDFFC002CCFCD;
+					};
+				};
+			};
+			buildConfigurationList = 50CAF5A7191CDFFB002CCFCD /* Build configuration list for PBXProject "BeachTime" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50CAF5A3191CDFFB002CCFCD;
+			productRefGroup = 50CAF5AD191CDFFC002CCFCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50CAF5AB191CDFFC002CCFCD /* BeachTime */,
+				50CAF5CC191CDFFC002CCFCD /* BeachTimeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50CAF5AA191CDFFC002CCFCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50CAF609191D0F3A002CCFCD /* weatherCode.txt in Resources */,
+				50CAF5C8191CDFFC002CCFCD /* Images.xcassets in Resources */,
+				50CAF5BA191CDFFC002CCFCD /* InfoPlist.strings in Resources */,
+				50CAF5C3191CDFFC002CCFCD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50CAF5CB191CDFFC002CCFCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50CAF5D9191CDFFC002CCFCD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50CAF5A8191CDFFC002CCFCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50CAF5FB191D0349002CCFCD /* AFHTTPRequestOperation.m in Sources */,
+				50CAF5C6191CDFFC002CCFCD /* BTLoginWithFaceBookViewController.m in Sources */,
+				50CAF5FC191D0349002CCFCD /* AFHTTPRequestOperationManager.m in Sources */,
+				50CAF5FE191D0349002CCFCD /* AFNetworkReachabilityManager.m in Sources */,
+				50CAF606191D03F6002CCFCD /* BTMainViewController.m in Sources */,
+				50CAF602191D0349002CCFCD /* AFURLResponseSerialization.m in Sources */,
+				50CAF600191D0349002CCFCD /* AFURLConnectionOperation.m in Sources */,
+				50CAF5FF191D0349002CCFCD /* AFSecurityPolicy.m in Sources */,
+				50CAF5FD191D0349002CCFCD /* AFHTTPSessionManager.m in Sources */,
+				50CAF601191D0349002CCFCD /* AFURLRequestSerialization.m in Sources */,
+				50CAF603191D0349002CCFCD /* AFURLSessionManager.m in Sources */,
+				50CAF5C0191CDFFC002CCFCD /* AppDelegate.m in Sources */,
+				50CAF5BC191CDFFC002CCFCD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50CAF5C9191CDFFC002CCFCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50CAF5DB191CDFFC002CCFCD /* BeachTimeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50CAF5D3191CDFFC002CCFCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50CAF5AB191CDFFC002CCFCD /* BeachTime */;
+			targetProxy = 50CAF5D2191CDFFC002CCFCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50CAF5B8191CDFFC002CCFCD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50CAF5B9191CDFFC002CCFCD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		50CAF5C1191CDFFC002CCFCD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50CAF5C2191CDFFC002CCFCD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50CAF5D7191CDFFC002CCFCD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50CAF5D8191CDFFC002CCFCD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50CAF5DC191CDFFC002CCFCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		50CAF5DD191CDFFC002CCFCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50CAF5DF191CDFFC002CCFCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/guykahlon/Developer/BeachTime/Third,
+					Party/FaceBook,
+					/Users/guykahlon/Developer/BeachTime/Third,
+					Party/FaceBook,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BeachTime/BeachTime-Prefix.pch";
+				INFOPLIST_FILE = "BeachTime/BeachTime-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		50CAF5E0191CDFFC002CCFCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/guykahlon/Developer/BeachTime/Third,
+					"Party/FaceBook/**",
+					/Users/guykahlon/Developer/BeachTime/Third,
+					Party/FaceBook,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BeachTime/BeachTime-Prefix.pch";
+				INFOPLIST_FILE = "BeachTime/BeachTime-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		50CAF5E2191CDFFC002CCFCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BeachTime.app/BeachTime";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BeachTime/BeachTime-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BeachTimeTests/BeachTimeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		50CAF5E3191CDFFC002CCFCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BeachTime.app/BeachTime";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BeachTime/BeachTime-Prefix.pch";
+				INFOPLIST_FILE = "BeachTimeTests/BeachTimeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50CAF5A7191CDFFB002CCFCD /* Build configuration list for PBXProject "BeachTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50CAF5DC191CDFFC002CCFCD /* Debug */,
+				50CAF5DD191CDFFC002CCFCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50CAF5DE191CDFFC002CCFCD /* Build configuration list for PBXNativeTarget "BeachTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50CAF5DF191CDFFC002CCFCD /* Debug */,
+				50CAF5E0191CDFFC002CCFCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50CAF5E1191CDFFC002CCFCD /* Build configuration list for PBXNativeTarget "BeachTimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50CAF5E2191CDFFC002CCFCD /* Debug */,
+				50CAF5E3191CDFFC002CCFCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50CAF5A4191CDFFB002CCFCD /* Project object */;
+}
