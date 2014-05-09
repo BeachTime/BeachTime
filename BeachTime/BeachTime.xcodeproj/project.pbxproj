@@ -95,8 +95,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50CAF5B2191CDFFC002CCFCD /* CoreGraphics.framework in Frameworks */,
 				50CAF60D191D1741002CCFCD /* FacebookSDK.framework in Frameworks */,
+				50CAF5B2191CDFFC002CCFCD /* CoreGraphics.framework in Frameworks */,
 				50CAF5B4191CDFFC002CCFCD /* UIKit.framework in Frameworks */,
 				50CAF5B0191CDFFC002CCFCD /* Foundation.framework in Frameworks */,
 			);
@@ -478,6 +478,8 @@
 					Party/FaceBook,
 					/Users/guykahlon/Developer/BeachTime/Third,
 					Party/FaceBook,
+					/Users/guykahlon/Developer/BeachTimeClone/Third,
+					Party/FaceBook,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BeachTime/BeachTime-Prefix.pch";
@@ -497,6 +499,8 @@
 					/Users/guykahlon/Developer/BeachTime/Third,
 					"Party/FaceBook/**",
 					/Users/guykahlon/Developer/BeachTime/Third,
+					Party/FaceBook,
+					/Users/guykahlon/Developer/BeachTimeClone/Third,
 					Party/FaceBook,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
